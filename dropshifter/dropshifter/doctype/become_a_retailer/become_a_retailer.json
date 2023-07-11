@@ -14,7 +14,8 @@
   "gst_category",
   "gstin",
   "pan",
-  "status"
+  "status",
+  "amended_from"
  ],
  "fields": [
   {
@@ -56,13 +57,23 @@
    "fieldtype": "Select",
    "label": "GST Category",
    "options": "Registered Regular\nRegistered Composition\nUnregistered\nSEZ\nOverseas\nDeemed Export\nUIN Holders\nTax Deductor"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Become a Retailer",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-07-05 16:16:35.796488",
+ "modified": "2023-07-12 02:08:29.262954",
  "modified_by": "Administrator",
- "module": "DropShifter",
+ "module": "dropshifter",
  "name": "Become a Retailer",
  "naming_rule": "Expression",
  "owner": "Administrator",
