@@ -14,7 +14,7 @@
  "label": "Item Received for Delivery",
  "modified": "2023-06-27 00:30:59.974318",
  "modified_by": "Administrator",
- "module": "Advika Enterprises",
+ "module": "DropShifter",
  "name": "Received from Supplier",
  "owner": "Administrator",
  "parent_document_type": "",

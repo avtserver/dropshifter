@@ -10,7 +10,7 @@
  "label": "Paid Amount",
  "modified": "2023-07-07 03:14:50.003767",
  "modified_by": "Administrator",
- "module": "Advika Enterprises",
+ "module": "DropShifter",
  "name": "Paid Amount",
  "owner": "Administrator",
  "report_field": "paid_amount",
