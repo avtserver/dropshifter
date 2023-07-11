@@ -6,7 +6,7 @@
 #     if customer:
 #         frappe.db.set_value('Customer', customer[0].name, 'customer_group', 'Retailer')
 #         frappe.db.commit()
-# dropshifter/dropshifter/api.py
+# dropshifter/dropshifter/api.py updatetd
 # for retauler
 
 import frappe
