@@ -6,26 +6,26 @@
 
 // 	},
 // });
-// frappe.ui.form.on('Become a Retailer', {
-//     refresh: function(frm) {
-//         if(frm.is_new()) {
-//             frm.set_value('user', frappe.session.user);
-//             frm.set_value('status', 'Pending');
-//         }
-//     }
-// });
 frappe.ui.form.on('Become a Retailer', {
-    status: function(frm) {
-        if(frm.doc.status === 'Approved') {
-            frappe.call({
-                method: 'dropshifter.dropshifter.api.change_customer_group',
-                args: {
-                    'user': frm.doc.user
-                },
-                callback: function(response) {
-                    // handle any post-operation actions here, if needed
-                }
-            });
+    refresh: function(frm) {
+        if(frm.is_new()) {
+            frm.set_value('user', frappe.session.user);
+            frm.set_value('status', 'Pending');
         }
     }
 });
+// frappe.ui.form.on('Become a Retailer', {
+//     status: function(frm) {
+//         if(frm.doc.status === 'Approved') {
+//             frappe.call({
+//                 method: 'dropshifter.dropshifter.api.change_customer_group',
+//                 args: {
+//                     'user': frm.doc.user
+//                 },
+//                 callback: function(response) {
+//                     // handle any post-operation actions here, if needed
+//                 }
+//             });
+//         }
+//     }
+// });

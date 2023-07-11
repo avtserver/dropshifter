@@ -1,4 +1,5 @@
 from . import __version__ as app_version
+import dropshifter.dropshifter.api
 
 app_name = "dropshifter"
 app_title = "DropShifter"
@@ -166,6 +167,9 @@ doc_events = {
     "DS Stock": {
         "on_update": "dropshifter.dropshifter.doctype.ds_stock.ds_stock.check_uncheck_published",
     },
+    "Become a Retailer": {
+        "on_submit": "dropshifter.dropshifter.api.approve_retailer",
+    }
 }
 
 
