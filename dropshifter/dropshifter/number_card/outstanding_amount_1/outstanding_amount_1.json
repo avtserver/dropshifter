@@ -1,0 +1,22 @@
+{
+ "creation": "2023-06-23 00:04:20.970260",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "filters_json": "{\"company\":\"myAdvika\",\"from_date\":\"2023-05-23\",\"to_date\":\"2023-06-23\"}",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "label": "Outstanding Amount",
+ "modified": "2023-06-23 00:04:28.740175",
+ "modified_by": "Administrator",
+ "module": "Advika Enterprises",
+ "name": "Outstanding Amount-1",
+ "owner": "Administrator",
+ "report_field": "closing_balance",
+ "report_function": "Sum",
+ "report_name": "Supplier Ledger Summary",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Report"
+}

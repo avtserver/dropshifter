@@ -1,0 +1,106 @@
+{
+ "charts": [
+  {
+   "chart_name": "Sales Order Trends",
+   "label": "Sales"
+  }
+ ],
+ "content": "[{\"id\":\"NkJ3FhVXAT\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Sales\",\"col\":12}},{\"id\":\"rMhUHS3zqb\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Sales order status summary</b></span>\",\"col\":12}},{\"id\":\"IvhzsDHlly\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Sales Order Received\",\"col\":3}},{\"id\":\"eIUopSFkNL\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Create Sales Invoice\",\"col\":3}},{\"id\":\"umW5HPN3y3\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Create Purchase Order\",\"col\":3}},{\"id\":\"pkDkE3PYJC\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Order\",\"col\":3}},{\"id\":\"2KCRq6tYw4\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"BxA6BFToCR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Paid Order\",\"col\":3}},{\"id\":\"jdR-dKSWYm\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Payment Due\",\"col\":3}},{\"id\":\"MYiCqxPXCc\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Requested Wholesaler\",\"col\":3}},{\"id\":\"adudvMKo_T\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Requested Retailer\",\"col\":3}},{\"id\":\"oJsRgpphPe\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"IW94kGO9j6\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Supplier Order actions and summary</b></span>\",\"col\":12}},{\"id\":\"7mQtLLFdFA\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Order Received\",\"col\":6}},{\"id\":\"hvh2XiTiHk\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Pending Order\",\"col\":6}},{\"id\":\"sdHx8TGYY-\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Order Processed\",\"col\":4}},{\"id\":\"qHkjJtUjMf\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Order Hold\",\"col\":4}},{\"id\":\"KMFn9EaqVT\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Order Cancelled\",\"col\":4}},{\"id\":\"ydPkhrv9BQ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"I1rZuubk5h\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>DS Item Stock Summary</b></span>\",\"col\":12}},{\"id\":\"851UQCjm9t\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"In Stock Items\",\"col\":4}},{\"id\":\"zRH4GA8sJk\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Low Stock Items\",\"col\":4}},{\"id\":\"wOw2uBoNU2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Items Stock Dashboard\",\"col\":3}}]",
+ "creation": "2023-06-08 19:50:30.439258",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "dashboard-list",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Admin Workspace",
+ "links": [],
+ "modified": "2023-07-09 15:58:14.943776",
+ "modified_by": "Administrator",
+ "module": "Advika Enterprises",
+ "name": "Admin Workspace",
+ "number_cards": [
+  {
+   "label": "Requested Wholesaler",
+   "number_card_name": "Wholesaler Request"
+  },
+  {
+   "label": "Order Received",
+   "number_card_name": "Order Received"
+  },
+  {
+   "label": "Requested Retailer",
+   "number_card_name": "Retailer Request"
+  },
+  {
+   "label": "Low Stock Items",
+   "number_card_name": "DS Item Low Stock"
+  },
+  {
+   "label": "In Stock Items",
+   "number_card_name": "DS In Stock Items"
+  },
+  {
+   "label": "Completed Order",
+   "number_card_name": "Complete Order"
+  },
+  {
+   "label": "Total Sales Order Received",
+   "number_card_name": "Total Sales Order Received"
+  },
+  {
+   "label": "Pending Order",
+   "number_card_name": "Pending Order-1"
+  },
+  {
+   "label": "Create Purchase Order",
+   "number_card_name": "Create Purchase Order"
+  },
+  {
+   "label": "Order Processed",
+   "number_card_name": "Order Processed (Approved)"
+  },
+  {
+   "label": "Create Sales Invoice",
+   "number_card_name": "Pending Order"
+  },
+  {
+   "label": "Paid Order",
+   "number_card_name": "Paid Order"
+  },
+  {
+   "label": "Payment Due",
+   "number_card_name": "Payment Due"
+  },
+  {
+   "label": "Order Cancelled",
+   "number_card_name": "Order Processed (Cancelled)"
+  },
+  {
+   "label": "Order Hold",
+   "number_card_name": "Order Processed (Hold)"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Administrator"
+  }
+ ],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Items Stock Dashboard",
+   "link_to": "dropship",
+   "type": "Page"
+  }
+ ],
+ "title": "Admin Workspace"
+}

@@ -1,0 +1,28 @@
+[
+ {
+  "buying": 0,
+  "countries": [],
+  "currency": "INR",
+  "docstatus": 0,
+  "doctype": "Price List",
+  "enabled": 1,
+  "modified": "2023-06-10 12:03:12.729652",
+  "name": "Wholesaler Selling Price",
+  "price_list_name": "Wholesaler Selling Price",
+  "price_not_uom_dependent": 0,
+  "selling": 1
+ },
+ {
+  "buying": 0,
+  "countries": [],
+  "currency": "INR",
+  "docstatus": 0,
+  "doctype": "Price List",
+  "enabled": 1,
+  "modified": "2023-06-10 12:03:13.676885",
+  "name": "Retailer Selling Price",
+  "price_list_name": "Retailer Selling Price",
+  "price_not_uom_dependent": 0,
+  "selling": 1
+ }
+]

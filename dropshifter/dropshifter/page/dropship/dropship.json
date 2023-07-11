@@ -1,0 +1,27 @@
+{
+ "content": null,
+ "creation": "2023-06-05 18:16:13.823869",
+ "docstatus": 0,
+ "doctype": "Page",
+ "icon": "fa-fa-fa",
+ "idx": 0,
+ "modified": "2023-06-05 18:16:13.823869",
+ "modified_by": "Administrator",
+ "module": "Advika Enterprises",
+ "name": "dropship",
+ "owner": "Administrator",
+ "page_name": "dropship",
+ "roles": [
+  {
+   "role": "All"
+  },
+  {
+   "role": "Administrator"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 1,
+ "title": "Dropship Dashboard"
+}

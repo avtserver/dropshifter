@@ -1,0 +1,138 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{TR}-{#######}",
+ "creation": "2023-06-05 19:26:24.676988",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_order",
+  "sales_invoice",
+  "ds_order_status",
+  "column_break_jzvk",
+  "purchase_order",
+  "purchase_invoice",
+  "status_updated_on",
+  "section_break_aovk",
+  "comment",
+  "status_logs"
+ ],
+ "fields": [
+  {
+   "fieldname": "sales_order",
+   "fieldtype": "Link",
+   "label": "Sales order",
+   "options": "Sales Order"
+  },
+  {
+   "fieldname": "purchase_order",
+   "fieldtype": "Link",
+   "label": "Purchase Order",
+   "options": "Purchase Order"
+  },
+  {
+   "fieldname": "ds_order_status",
+   "fieldtype": "Select",
+   "label": "DS Order Status",
+   "options": "Pending\nInvoice Issued, Awaiting Payment\nPaid\nunpaid\nPOD\nOrder Processed\nOrder cancelled by Supplier\nOrder in hold\nSupplier Received Order\nOrder Ready for Pickup\nItem has been picked up by Delivery Boy\nItem is out for delivery\nItem has been delivered\nReturn Initiated\nReturned to Supplier"
+  },
+  {
+   "fieldname": "status_updated_on",
+   "fieldtype": "Datetime",
+   "label": "Status Updated On"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Small Text",
+   "label": "Comment"
+  },
+  {
+   "fieldname": "status_logs",
+   "fieldtype": "Table",
+   "label": "Status Logs",
+   "options": "DS Order Status Log"
+  },
+  {
+   "fieldname": "purchase_invoice",
+   "fieldtype": "Link",
+   "label": "Purchase Invoice",
+   "options": "Purchase Invoice"
+  },
+  {
+   "fieldname": "sales_invoice",
+   "fieldtype": "Link",
+   "label": "Sales Invoice",
+   "options": "Sales Invoice"
+  },
+  {
+   "fieldname": "column_break_jzvk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_aovk",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-04 18:30:45.646165",
+ "modified_by": "Administrator",
+ "module": "Advika Enterprises",
+ "name": "DS Order Delivery Status",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "DS Supplier",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Delivery Boy",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Customer",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

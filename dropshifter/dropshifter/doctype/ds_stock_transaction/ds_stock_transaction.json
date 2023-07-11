@@ -1,0 +1,171 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:DS-Entry-ID-{#####}",
+ "creation": "2023-06-02 22:39:35.391474",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "h1supplier_stock_transaction_entryh1_section",
+  "item_code",
+  "column_break_iyrt",
+  "current_stock",
+  "section_break_sale",
+  "type_of_entry",
+  "date_of_transaction",
+  "column_break_veer",
+  "sold_stock",
+  "add_stock",
+  "section_break_tnhz",
+  "sales_order_ref",
+  "column_break_cake",
+  "transaction_type",
+  "entry_by",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "label": "Item code",
+   "options": "DS Stock",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "depends_on": "eval:doc.type_of_entry == \"Add Stock\"\n",
+   "fieldname": "add_stock",
+   "fieldtype": "Float",
+   "label": "Add Stock"
+  },
+  {
+   "depends_on": "eval:doc.type_of_entry == \"Sold Stock\"\n",
+   "fieldname": "sold_stock",
+   "fieldtype": "Float",
+   "label": "Sold Stock"
+  },
+  {
+   "fieldname": "type_of_entry",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type of entry",
+   "options": "\nAdd Stock\nSold Stock",
+   "reqd": 1
+  },
+  {
+   "depends_on": "item_code",
+   "fieldname": "date_of_transaction",
+   "fieldtype": "Date",
+   "label": "Date of transaction"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "Remarks"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "current_stock",
+   "fieldtype": "Data",
+   "label": "Current Stock",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_iyrt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_sale",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_veer",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_tnhz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_cake",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "h1supplier_stock_transaction_entryh1_section",
+   "fieldtype": "Section Break",
+   "label": "<h2>Supplier Stock Transaction Entry</h2>"
+  },
+  {
+   "default": "NA",
+   "depends_on": "eval:doc.type_of_entry == \"Sold Stock\"\n",
+   "fieldname": "sales_order_ref",
+   "fieldtype": "Data",
+   "label": "Sales order(Ref)"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "transaction_type",
+   "fieldtype": "Select",
+   "label": "Transaction Type",
+   "options": "\nInitial Stock\nAdd Stock\nRevoke Stock\nSubmitted sales order\nCancelled sales order"
+  },
+  {
+   "default": "Supplier",
+   "fieldname": "entry_by",
+   "fieldtype": "Select",
+   "label": "Entry By",
+   "options": "Supplier\nSystem flow"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-01 14:39:45.811239",
+ "modified_by": "Administrator",
+ "module": "Advika Enterprises",
+ "name": "DS Stock Transaction",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "DS Supplier",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Customer",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

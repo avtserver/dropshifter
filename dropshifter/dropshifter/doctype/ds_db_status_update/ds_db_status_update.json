@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-07 00:18:20.045819",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "status",
+  "update_on",
+  "update_by"
+ ],
+ "fields": [
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Item Received\nOut for delivery\nDelivered"
+  },
+  {
+   "fieldname": "update_on",
+   "fieldtype": "Date",
+   "in_standard_filter": 1,
+   "label": "Update on"
+  },
+  {
+   "fieldname": "update_by",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Update By",
+   "options": "User"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-07 00:32:58.399388",
+ "modified_by": "Administrator",
+ "module": "Advika Enterprises",
+ "name": "DS DB Status Update",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

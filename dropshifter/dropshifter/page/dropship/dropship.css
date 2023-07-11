@@ -1,0 +1,23 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  
+}
+.warning {
+    background-color: #f8d7da; /* You can choose any color as per your requirements */
+}
+.outofstock{
+    background-color: #f8d7da;
+}
+.card{
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.search{
+    border: 1px solid #000;
+    border-radius: .5rem;
+}

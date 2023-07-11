@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-06 17:42:53.708710",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_order",
+  "previous_status",
+  "new_status",
+  "change_time",
+  "changed_by",
+  "comment"
+ ],
+ "fields": [
+  {
+   "fieldname": "sales_order",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sales Order",
+   "options": "Sales Order"
+  },
+  {
+   "fieldname": "previous_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Previous Status",
+   "options": "Order Placed\nPending\nInvoice Issued, Awaiting Payment\nPaid\nunpaid\nPOD\nOrder Processed\nOrder cancelled by Supplier\nOrder in hold\nSupplier Received Order\nOrder Ready for Pickup\nItem has been picked up by Delivery Boy\nItem is out for delivery\nItem has been delivered\nReturn Initiated\nReturned to Supplier"
+  },
+  {
+   "fieldname": "new_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "New Status",
+   "options": "Pending\nInvoice Issued, Awaiting Payment\nPaid\nunpaid\nPOD\nOrder Processed\nOrder cancelled by Supplier\nOrder in hold\nSupplier Received Order\nOrder Ready for Pickup\nItem has been picked up by Delivery Boy\nItem is out for delivery\nItem has been delivered\nReturn Initiated\nReturned to Supplier"
+  },
+  {
+   "fieldname": "change_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Change Time"
+  },
+  {
+   "fieldname": "changed_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Changed By",
+   "options": "User"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Data",
+   "label": "Comment"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [
+  {
+   "link_doctype": "DS Order Delivery Status",
+   "link_fieldname": "sales_order"
+  }
+ ],
+ "modified": "2023-06-08 01:32:04.641446",
+ "modified_by": "Administrator",
+ "module": "Advika Enterprises",
+ "name": "DS Order Status Log",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

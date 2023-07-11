@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dropshifter *.css
+recursive-include dropshifter *.csv
+recursive-include dropshifter *.html
+recursive-include dropshifter *.ico
+recursive-include dropshifter *.js
+recursive-include dropshifter *.json
+recursive-include dropshifter *.md
+recursive-include dropshifter *.png
+recursive-include dropshifter *.py
+recursive-include dropshifter *.svg
+recursive-include dropshifter *.txt
+recursive-exclude dropshifter *.pyc

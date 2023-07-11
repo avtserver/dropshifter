@@ -1,0 +1,44 @@
+{
+ "based_on": "creation",
+ "chart_name": "DS Delivery Order Track",
+ "chart_type": "Count",
+ "color": "#29CD42",
+ "creation": "2023-06-27 00:37:51.254720",
+ "custom_options": "",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "document_type": "Delivery Boy Status",
+ "dynamic_filters_json": "[]",
+ "filters_json": "[[\"Delivery Boy Status\",\"docstatus\",\"=\",\"0\",false],[\"Delivery Boy Status\",\"docstatus\",\"=\",\"1\",false]]",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "last_synced_on": "2023-06-27 00:39:34.467837",
+ "modified": "2023-06-27 00:39:45.056204",
+ "modified_by": "Administrator",
+ "module": "Advika Enterprises",
+ "name": "DS Delivery Order Track",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "parent_document_type": "",
+ "roles": [
+  {
+   "role": "DS Supplier"
+  },
+  {
+   "role": "Delivery Boy"
+  },
+  {
+   "role": "Administrator"
+  }
+ ],
+ "source": "",
+ "time_interval": "Yearly",
+ "timeseries": 1,
+ "timespan": "Last Week",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "value_based_on": "",
+ "y_axis": []
+}

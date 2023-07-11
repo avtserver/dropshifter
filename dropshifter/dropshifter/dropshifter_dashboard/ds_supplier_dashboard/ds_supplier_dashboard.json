@@ -1,0 +1,61 @@
+{
+ "cards": [
+  {
+   "card": "Total DS Items"
+  },
+  {
+   "card": "In Stock Items (50+)"
+  },
+  {
+   "card": "Out of Stock Items (-50)"
+  },
+  {
+   "card": "Inactive Item (0)"
+  },
+  {
+   "card": "Order Received"
+  },
+  {
+   "card": "Pending Order-1"
+  },
+  {
+   "card": "Order Processed (Approved)"
+  },
+  {
+   "card": "Order Processed (Hold)"
+  },
+  {
+   "card": "Order Processed (Cancelled)"
+  },
+  {
+   "card": "Order Delivered-1"
+  },
+  {
+   "card": "Invoiced Amount"
+  },
+  {
+   "card": "Paid Amount"
+  },
+  {
+   "card": "Outstanding Amount-1"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Supplier Ledger Summary",
+   "width": "Half"
+  }
+ ],
+ "creation": "2023-06-10 22:03:42.735423",
+ "dashboard_name": "DS Supplier Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2023-07-04 17:11:19.806347",
+ "modified_by": "Administrator",
+ "module": "Advika Enterprises",
+ "name": "DS Supplier Dashboard",
+ "owner": "Administrator"
+}

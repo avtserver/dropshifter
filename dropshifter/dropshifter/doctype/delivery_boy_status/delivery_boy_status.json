@@ -1,0 +1,204 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:sales_order",
+ "creation": "2023-06-07 00:15:49.104669",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "delivery_boy",
+  "column_break_qbne",
+  "current_status",
+  "update_status",
+  "column_break_ecph",
+  "order_payment_status",
+  "section_break_totj",
+  "purchase_order",
+  "purchase_invoice",
+  "column_break_xeal",
+  "sales_order",
+  "sales_order_display",
+  "sales_invoice",
+  "section_break_ieul",
+  "supplier_address",
+  "column_break_yvrz",
+  "delivery_address",
+  "section_break_wdjo",
+  "delivery_pin_code",
+  "ds_db_status_update",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "purchase_order",
+   "fieldtype": "Link",
+   "label": "Purchase Order",
+   "options": "Purchase Order",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "purchase_invoice",
+   "fieldtype": "Link",
+   "label": "Purchase Invoice",
+   "options": "Purchase Invoice",
+   "read_only": 1
+  },
+  {
+   "fieldname": "delivery_boy",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Delivery Boy",
+   "options": "Delivery Boy",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ds_db_status_update",
+   "fieldtype": "Table",
+   "label": "DS DB Status Update",
+   "options": "DS DB Status Update"
+  },
+  {
+   "fieldname": "section_break_wdjo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sales_order",
+   "fieldtype": "Link",
+   "label": "Sales Order",
+   "options": "Sales Order",
+   "unique": 1
+  },
+  {
+   "fieldname": "sales_invoice",
+   "fieldtype": "Link",
+   "label": "Sales Invoice",
+   "options": "Sales Invoice",
+   "read_only": 1
+  },
+  {
+   "fieldname": "current_status",
+   "fieldtype": "Read Only",
+   "label": "Current Status"
+  },
+  {
+   "fieldname": "order_payment_status",
+   "fieldtype": "Read Only",
+   "label": "Order Payment Status"
+  },
+  {
+   "fieldname": "delivery_address",
+   "fieldtype": "Small Text",
+   "label": "Delivery Address",
+   "read_only": 1
+  },
+  {
+   "fieldname": "delivery_pin_code",
+   "fieldtype": "Read Only",
+   "label": "Delivery Pin Code"
+  },
+  {
+   "fieldname": "supplier_address",
+   "fieldtype": "Small Text",
+   "label": "Order Pickup Point (Supplier Address}",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_qbne",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_totj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_xeal",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ieul",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_yvrz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ecph",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Delivery Boy Status",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "sales_order_display",
+   "fieldtype": "Read Only",
+   "label": "Sales Order"
+  },
+  {
+   "fieldname": "update_status",
+   "fieldtype": "Select",
+   "label": "Update Status",
+   "options": "\nItem Received\nOut for delivery\nDelivered"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-07-07 04:15:39.490729",
+ "modified_by": "Administrator",
+ "module": "Advika Enterprises",
+ "name": "Delivery Boy Status",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "DS Supplier",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Delivery Boy",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

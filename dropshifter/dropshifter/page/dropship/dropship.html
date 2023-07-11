@@ -1,0 +1,65 @@
+
+
+<div class="page-content">
+    <h1>Welcome to the Dropship Dashboard!</h1>
+    <p>This is a placeholder text for your dashboard.</p>
+
+    <div class="card-container">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Total DS Stock Items</h5>
+                <h2 id="total-ds-stock">0</h2>
+            </div>
+        </div>
+        <div class="card outofstock">
+            <div class="card-body">
+                <h5 class="card-title">Total DS Stock Items (Stock < 50)</h5>
+                <h2 id="low-stock-ds-items">0</h2>
+            </div>
+        </div>
+    </div>
+   
+    <br>
+    <br>
+    
+    <!-- <div class="row">
+      <div class="col-md-3">
+        <input type="text" id="search-ds-stock" placeholder="Search DS Stock" class="form-control">
+      </div>
+    </div> -->
+    
+    <div class="row">
+        <div class="col-md-3">
+          <div class="input-group search">
+            <span class="input-group-prepend">
+              <div class="input-group-text">
+                <i class="fa fa-search"></i>
+              </div>
+            </span>
+            <input type="text" id="search-ds-stock" placeholder="Search DS Stock" class="form-control">
+          </div>
+        </div>
+      </div>
+      
+
+
+    <div class="row">
+      <div class="col-md-12">
+        <table id="ds-stock-list" class="table table-striped">
+          <thead>
+            <tr>
+                <th>Sl. No.</th>
+              <th>Name</th>
+              <th>Item Name</th>
+              <th>Item Code</th>
+              <th>Available Stock</th>
+              <th>Last Update</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+

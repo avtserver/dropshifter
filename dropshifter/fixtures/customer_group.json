@@ -1,0 +1,30 @@
+[
+    {
+        "doctype": "Customer Group",
+        "name": "Retailer",
+        "customer_group_name": "Retailer",
+        "parent_customer_group": "All Customer Groups",
+        "is_group": "No",
+        "accounts": [],
+        "credit_limits": [],
+        "default_price_list": "Retailer Selling Price",
+        "docstatus": 0,
+        "modified": "2023-06-10 12:03:05.950982",
+        "old_parent": "All Customer Groups",
+        "payment_terms": null
+    },
+    {
+        "doctype": "Customer Group",
+        "name": "Wholesaler",
+        "customer_group_name": "Wholesaler",
+        "parent_customer_group": "All Customer Groups",
+        "is_group": "No",
+        "accounts": [],
+        "credit_limits": [],
+        "default_price_list": "Wholesaler Selling Price",
+        "docstatus": 0,
+        "modified": "2023-06-10 12:03:05.950982",
+        "old_parent": "All Customer Groups",
+        "payment_terms": null
+    }
+]

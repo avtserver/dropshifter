@@ -1,0 +1,12 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<a class=\"btn btn-lg\" href=\"/app/dashboard-view/DS%20Supplier%20Dashboard\">\n    DASHBOARD\n    <img class=\"button-icon\" src=\"/assets/dropshifter/advika_assets/white-arrow.png\" width=\"40px\" height=\"40px\" />\n</a>\n",
+  "modified": "2023-07-09 17:20:19.922085",
+  "name": "Supplier Dashboard",
+  "roles": [],
+  "script": "",
+  "style": ".btn {\n    border: none;\n    border-radius: var(--border-radius);\n    box-shadow: var(--btn-shadow);\n    font-size: var(--text-md);\n    background: #FF7722;\n    text-decoration: none;\n    color: white;\n    display: inline-flex; /* Flexbox */\n    justify-content: center; /* Center items horizontally */\n    align-items: center; /* Center items vertically */\n    font-weight: 600;\n}\n\n.btn-lg, .btn-group-lg>.btn {\n    padding: 1rem 2.5rem;\n    font-size: 1.125rem;\n    line-height: 1;\n    border-radius: 0.5rem;\n}\n\n.button-icon {\n    margin-left: 10px; /* Space between the icon and the text */\n    color: white; /* Color of the icon */\n}\n"
+ }
+]

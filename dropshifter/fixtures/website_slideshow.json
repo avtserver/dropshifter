@@ -1,0 +1,140 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Website Slideshow",
+  "header": null,
+  "modified": "2023-07-08 17:24:36.968057",
+  "name": "homepage",
+  "slideshow_items": [
+   {
+    "description": null,
+    "heading": null,
+    "image": "/assets/dropshifter/advika_assets/6.jpeg",
+    "parent": "homepage",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": null,
+    "image": "/assets/dropshifter/advika_assets/5.jpeg",
+    "parent": "homepage",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": null,
+    "image": "/assets/dropshifter/advika_assets/4.jpeg",
+    "parent": "homepage",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   }
+  ],
+  "slideshow_name": "homepage"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Website Slideshow",
+  "header": null,
+  "modified": "2023-07-09 14:54:59.601190",
+  "name": "oreo img",
+  "slideshow_items": [
+   {
+    "description": null,
+    "heading": null,
+    "image": "/files/oreoef546c.jpeg",
+    "parent": "oreo img",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": null,
+    "image": "/files/oreo2.jpg",
+    "parent": "oreo img",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": null,
+    "image": "/files/oreo3.jpg",
+    "parent": "oreo img",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": null,
+    "image": "/files/oreo 4.jpg",
+    "parent": "oreo img",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": null,
+    "image": "/files/oreo 5.jpg",
+    "parent": "oreo img",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   }
+  ],
+  "slideshow_name": "oreo img"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Website Slideshow",
+  "header": null,
+  "modified": "2023-07-09 15:02:21.245877",
+  "name": "dark",
+  "slideshow_items": [
+   {
+    "description": null,
+    "heading": null,
+    "image": "/files/dark0f6e52.jpg",
+    "parent": "dark",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": null,
+    "image": "/files/dark2.jpg",
+    "parent": "dark",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": null,
+    "image": "/files/dark3.jpg",
+    "parent": "dark",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   },
+   {
+    "description": null,
+    "heading": null,
+    "image": "/files/dark4.jpg",
+    "parent": "dark",
+    "parentfield": "slideshow_items",
+    "parenttype": "Website Slideshow",
+    "url": null
+   }
+  ],
+  "slideshow_name": "dark"
+ }
+]

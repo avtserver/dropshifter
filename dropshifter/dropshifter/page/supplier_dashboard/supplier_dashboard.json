@@ -1,0 +1,24 @@
+{
+ "content": null,
+ "creation": "2023-06-10 19:06:24.945933",
+ "docstatus": 0,
+ "doctype": "Page",
+ "icon": "fa-fa",
+ "idx": 0,
+ "modified": "2023-06-10 19:06:24.945933",
+ "modified_by": "Administrator",
+ "module": "Advika Enterprises",
+ "name": "supplier-dashboard",
+ "owner": "Administrator",
+ "page_name": "supplier-dashboard",
+ "roles": [
+  {
+   "role": "DS Supplier"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 1,
+ "title": "Supplier Dashboard"
+}

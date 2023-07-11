@@ -1,0 +1,23 @@
+{
+ "creation": "2023-06-22 22:56:05.729069",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{\"company\":\"myAdvika\",\"party_type\":\"Supplier\",\"party\":[\"Advika Enterprises\"],\"include_account_currency\":0,\"group_party\":1,\"period_start_date\":\"2023-05-22\",\"period_end_date\":\"2023-06-22\"}",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "label": "test",
+ "modified": "2023-06-22 22:56:12.679260",
+ "modified_by": "Administrator",
+ "module": "Advika Enterprises",
+ "name": "test",
+ "owner": "Administrator",
+ "report_field": "amount",
+ "report_function": "Sum",
+ "report_name": "Payment Ledger",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Report"
+}

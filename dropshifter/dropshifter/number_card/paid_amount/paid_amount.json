@@ -1,0 +1,22 @@
+{
+ "creation": "2023-06-22 23:53:48.250458",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "filters_json": "{\"company\":\"My Advika Private Limited\",\"party\":\"Sandeep Kumar\",\"from_date\":\"2023-06-07\",\"to_date\":\"2023-07-07\"}",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "label": "Paid Amount",
+ "modified": "2023-07-07 03:14:50.003767",
+ "modified_by": "Administrator",
+ "module": "Advika Enterprises",
+ "name": "Paid Amount",
+ "owner": "Administrator",
+ "report_field": "paid_amount",
+ "report_function": "Sum",
+ "report_name": "Supplier Ledger Summary",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Report"
+}
